@@ -1,17 +1,25 @@
+import random
+
 def obter_escolha_usuario():
-    int("Escolha um"))
-
-
-def gerar_escolha_computador():
+    
     pass
 
+def gerar_escolha_computador():
+   
+    opcao =["papel", "pedra", "tesoura"]
+    escolha_computador = random.choice(opcao)
+
+    return(escolha_computador)
 
 def determinar_vencedor():
-    
+    pass
 
 def jogar_novamente():
     pass
 
 def jogar():
-    if(__name__="__main__"):
+    pass
+
+
+if(__name__)==("__main__"):
         pass
