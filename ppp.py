@@ -1,15 +1,21 @@
-def obter_escolha_usuario():
-    escolha = input("pedra, papel ou tesoura?: ").lower()
+import random
 
-    if escolha == "pedra":
+def obter_escolha_usuario():
+    escolha_usuario = input("pedra, papel ou tesoura?: ").lower()
+
+    if escolha_usuario == "pedra":
         print("Sua escolha foi pedra!")
-        return escolha
-    elif escolha == "papel":
+        return escolha_usuario
+    elif escolha_usuario == "papel":
         print("sua escolha foi papel")
-        return escolha
-    elif escolha == "tesoura":
+        return escolha_usuario
+    elif escolha_usuario == "tesoura":
         print("sua escolha foi tesoura")
-        return escolha
+        return escolha_usuario
+    
+
+    
+
 
 def jogar():
 
