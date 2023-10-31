@@ -40,4 +40,4 @@ def determinar_vencedor(escolha_usuario, escolha_computador):
 
 def jogar_novamente():
 
-    jogar_dnv = input("Deseja jogar de novo? (sim/não): ").lower
+    jogar_dnv = input("Deseja jogar de novo? (sim/não): ").lower()
