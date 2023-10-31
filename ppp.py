@@ -2,6 +2,7 @@ import random
 
 def obter_escolha_usuario():
 
+
     while True:
         escolha_usuario = input("Escolha entre: pedra, papel ou tesoura : ").lower()
 
@@ -17,10 +18,12 @@ def obter_escolha_usuario():
         else:
             print("Escolha inválida. Por favor, escolha entre pedra, papel ou tesoura.")
 
+
 def gerar_escolha_computador():
    
     opcao =["papel", "pedra", "tesoura"]
     escolha_computador = random.choice(opcao)
+
     
     print("o computador escolheu: ", escolha_computador)
 
@@ -43,3 +46,20 @@ def jogar_novamente():
     jogar_dnv = input("Deseja jogar de novo? (sim/não): ").lower()
 
     return jogar_dnv
+
+
+    
+
+def determinar_vencedor():
+    pass
+
+def jogar_novamente():
+    pass
+
+def jogar():
+    pass
+
+
+if(__name__)==("__main__"):
+        pass
+
