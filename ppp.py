@@ -48,18 +48,4 @@ def jogar_novamente():
     return jogar_dnv
 
 
-    
-
-def determinar_vencedor():
-    pass
-
-def jogar_novamente():
-    pass
-
-def jogar():
-    pass
-
-
-if(__name__)==("__main__"):
-        pass
 
