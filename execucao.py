@@ -1,8 +1,13 @@
 from ppp import * 
+from time import sleep
 
 def main():
 
+    delay = 1.5
+    print("\n\033[1;36m========== Bem vindo ao JOKENPO! ==========\033[m")
+    sleep(delay)
     while True:
+
         
         escolha_usuario = obter_escolha_usuario()
         escolha_computador = gerar_escolha_computador()
