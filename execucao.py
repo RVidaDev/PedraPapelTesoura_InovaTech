@@ -1,4 +1,4 @@
-from ppp import * 
+from funcoes import * 
 from time import sleep
 
 def main():
@@ -18,7 +18,7 @@ def main():
 
         jogar_dnv = jogar_novamente()
         
-        if jogar_dnv == "não":
+        if jogar_dnv == "não" or jogar_dnv == "nao":
             print("Jogo encerrado!!!")
             break
 
@@ -29,4 +29,4 @@ def main():
 
 
 if(__name__=="__main__"):
-    main()
+    main() 

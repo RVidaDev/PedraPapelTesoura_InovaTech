@@ -56,6 +56,6 @@ def jogar_novamente():
 
     jogar_dnv = input("Deseja jogar de novo? (sim/não): ").lower()
 
-    return jogar_dnv()
+    return jogar_dnv
 
 
